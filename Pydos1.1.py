@@ -13,7 +13,7 @@ while True:
     #cd - Change directory
     elif ans == "cd":
         cd = input("to directory,:")
-        os.chdir(dd)
+        os.chdir(cd)
         if not os.path.exists(cd):
             print("Invalid directory")
             
