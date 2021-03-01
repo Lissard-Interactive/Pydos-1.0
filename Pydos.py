@@ -3,8 +3,6 @@ print("PyDos version 1.0 alpha. Copyright 2020 Lissard interactive. All rights r
 import os, time
 def Dir():
     return os.listdir('.')
-def Loop():
-    return answer == input("Input command: ")
 #commands
 while True:
     ans = input("Input code: ")
